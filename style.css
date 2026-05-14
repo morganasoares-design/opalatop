@@ -1,0 +1,58 @@
+/* Define o estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #98c8f6;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.minha-imagem {
+    background-image: url('opala.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 600px; 
+}
+
+/* Estiliza o título principal */
+h1 {
+    color: #e3f477;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Estiliza o parágrafo com estilo mais lúdico */
+p {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif; /* Fonte mais divertida */
+    font-size: 22px; /* Texto um pouco maior */
+    color: #1c1b1b; /* Cor mais escura para contraste */
+    
+    /* Caixa de fundo lúdica (estilo nuvem/balão) */
+    background-color: rgba(255, 255, 255, 0.85); /* Fundo branco semi-transparente */
+    border-radius: 20px; /* Bordas bem arredondadas */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave flutuante */
+    
+    /* Espaçamento e alinhamento */
+    padding: 15px 30px; 
+    margin: 20px auto; 
+    max-width: 600px; /* Mantém a caixa centralizada e legível */
+    display: inline-block; /* Ajusta o tamanho do fundo ao texto */
+}
+
+/* Estiliza o botão */
+button {
+    background-color: #1c1b1b;
+    color: rgb(203, 241, 52);
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Efeito quando o mouse passa por cima do botão */
+button:hover {
+    background-color: #175ee0;
+}
